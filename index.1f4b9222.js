@@ -1,0 +1,2 @@
+for(var e=document.querySelectorAll(".field-text"),t=0;t<e.length;t++){var r=document.createElement("label"),l=function(e){if(0===e.length)return"";for(var t=e.split(""),r=0;r<t.length;r++)t[r].toUpperCase()===t[r]&&(t.splice(r,0," "),r++);return t.join("")}(e[t].getAttribute("name")),n=l[0].toUpperCase()+l.substring(1);r.setAttribute("for",e[t].getAttribute("id")),r.className="field-label",r.textContent=l,e[t].after(r),e[t].setAttribute("placeholder",n)}
+//# sourceMappingURL=index.1f4b9222.js.map
